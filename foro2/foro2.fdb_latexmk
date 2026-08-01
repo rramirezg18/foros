@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1785558584.4689 "/home/robertin/Desktop/foros/foro2/foro2.tex" "foro2.pdf" "foro2" 1785558584.97889 0
+["pdflatex"] 1785561798.06019 "/home/robertin/Desktop/foros/foro2/foro2.tex" "foro2.pdf" "foro2" 1785561799.16247 0
   "/etc/texmf/web2c/texmf.cnf" 1776620318.04624 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/robertin/Desktop/foros/foro2/foro2.tex" 1785558584.28951 12884 9c35aeb76d2b5a6a0fe031af79577b20 ""
+  "/home/robertin/Desktop/foros/foro2/foro2.tex" 1785561797.7579 12896 4e81b63ece4bd053dbb6337d70f34038 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -87,9 +87,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1784775967.08757 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784775982 8213984 fa093834cfe49691498a51ce60b05037 ""
-  "foro2.aux" 1785558584.92387 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
-  "foro2.out" 1785558584.82363 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "foro2.tex" 1785558584.28951 12884 9c35aeb76d2b5a6a0fe031af79577b20 ""
+  "foro2.aux" 1785561799.03755 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
+  "foro2.out" 1785561798.83255 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "foro2.tex" 1785561797.7579 12896 4e81b63ece4bd053dbb6337d70f34038 ""
   (generated)
   "foro2.aux"
   "foro2.log"
