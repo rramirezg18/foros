@@ -1,0 +1,103 @@
+\documentclass[12pt,letterpaper]{article}
+
+% Configuración de página y formato
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{mathptmx} % lo mismo que o mas similar a Times New Roman
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt} % Sin sangría
+\singlespacing % Renglón cerrado
+\pagestyle{empty}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=black
+}
+
+% para subtítulos negrita, izquierda
+\newcommand{\subtitulo}[1]{\vspace{12pt}\noindent\textbf{#1}\par\vspace{10pt}}
+
+\begin{document}
+
+\begin{center}
+\textbf{ENFOQUES DE LA SEGURIDAD DIGITAL}\\[8pt]
+\textit{R. A. Ramírez Gómez}\\
+7690-22-12700 Universidad Mariano Gálvez\\
+Seminario de Tecnologías de Información\\
+\textit{rramirezg18@miumg.edu.gt}
+\end{center}
+
+\vspace{10pt}
+
+\subtitulo{Resumen}
+Diferenciar los conceptos de ciberseguridad, seguridad informática y seguridad de la información es importante porque a menudo se utilizan como sinónimos, aunque cada uno tiene un alcance distinto. Este artículo tiene como objetivo aclarar estas diferencias y mostrar cómo se relacionan entre sí. Se investigó la definición de cada término apoyándose en estándares internacionales como ISO/IEC 27001 y en publicaciones técnicas del NIST, además de que se abordó la tríada de confidencialidad, integridad y disponibilidad como el fundamento común de estas disciplinas. También se explicó que la seguridad de la información es el concepto más amplio, ya que protege la información en todas sus formas, mientras que la seguridad informática se centra en los sistemas y la ciberseguridad en el entorno digital y sus amenazas. Se concluye que estos tres conceptos no son sinónimos, sino niveles distintos y complementarios de protección, donde la ciberseguridad está contenida dentro de la seguridad de la información.
+
+\noindent\textbf{Palabras clave:} ciberseguridad, seguridad informática, seguridad de la información, tríada CIA, ISO/IEC 27001
+
+\subtitulo{Desarrollo del tema}
+
+En el ámbito de la protección de datos existen tres términos que suelen emplearse de forma indistinta, pero que representan enfoques diferentes: la ciberseguridad, la seguridad informática y la seguridad de la información. Comprender sus diferencias es fundamental para aplicar cada concepto de manera adecuada y hablar con propiedad de cada uno, ya que aunque están estrechamente relacionados, no significan lo mismo (Pirani, 2024).
+
+\subtitulo{Seguridad de la información}
+La seguridad de la información es el concepto más amplio de los tres, ya que se ocupa de proteger la información en todas sus formas, sin importar si esta es digital, física como los documentos impresos, o incluso no representada como el conocimiento y las ideas de las personas (Pirani, 2024). Según esta misma fuente, su objetivo es salvaguardar los datos ante cualquier tipo de riesgo, ya sea un ciberataque, un incendio o el robo de carpetas físicas, e incluye técnicas, políticas, procedimientos y prácticas que deben ser conocidos y aplicados por todo el personal de una organización. De acuerdo con el estándar ISO/IEC 27001, la seguridad de la información se gestiona por medio de un Sistema de Gestión de Seguridad de la Información (SGSI), el cual protege activos como la información financiera, la propiedad intelectual, los datos de los empleados y la información confiada por terceros (ISO/IEC, 2022).
+
+\subtitulo{La tríada CIA}
+El fundamento sobre el que se construyen estas disciplinas es la denominada tríada CIA, que corresponde a las siglas en inglés de confidencialidad, integridad y disponibilidad. El NIST (2017) define estos tres pilares de la siguiente manera: la confidencialidad consiste en preservar las restricciones autorizadas sobre el acceso y la divulgación de la información, incluyendo la protección de la privacidad personal; la integridad consiste en proteger la información contra modificaciones o destrucciones indebidas, garantizando su autenticidad; y la disponibilidad consiste en asegurar el acceso oportuno y confiable a la información. Estos tres principios sirven como base para desarrollar y evaluar las políticas y los controles de seguridad de una organización.
+
+\subtitulo{Seguridad informática}
+Por su parte, la seguridad informática se enfoca en proteger los sistemas de información y su infraestructura tecnológica. La Universidad Francisco de Vitoria (2026) explica que la seguridad informática es un concepto amplio que abarca la protección del hardware, el software, las redes y los sistemas de información en general, garantizando su correcto funcionamiento frente a accesos no autorizados, daños o robos. De este modo, mientras la seguridad de la información se preocupa por el dato en sí mismo sin importar su forma, la seguridad informática pone el foco en los medios técnicos que almacenan, procesan y transmiten esa información.
+
+\subtitulo{Ciberseguridad}
+La ciberseguridad, en cambio, tiene un alcance más específico y técnico. La Universidad Francisco de Vitoria (2026) señala que la ciberseguridad se centra en la protección de los datos y la información en el ámbito digital, incluyendo la prevención de ataques cibernéticos y la gestión de incidentes de seguridad, y que se trata de una disciplina en constante evolución debido al rápido avance de la tecnología y de las amenazas. A diferencia de la seguridad de la información, la ciberseguridad se ocupa únicamente de la información digital y de los sistemas interconectados que facilitan su procesamiento, almacenamiento o transmisión, protegiendo principalmente redes, hardware, software, infraestructura tecnológica y servicios digitales (Pirani, 2024).
+
+El campo de acción de la ciberseguridad se entiende mejor al observar el tipo de amenazas que enfrenta. Pirani (2024) menciona que la ciberseguridad se centra en proteger los datos digitales frente a amenazas como los ataques cibernéticos, el malware, el ransomware y los virus, entre otros. Estas amenazas evolucionan constantemente, por lo que la ciberseguridad debe adaptarse de forma continua e incorporar tanto la prevención como la detección y la respuesta ante incidentes. En este punto es relevante el rol de las personas, ya que la ciberseguridad requiere la participación activa de todos los colaboradores de una organización, por ejemplo, para identificar correos falsos e impedir la efectividad de ataques de phishing, mientras que otras medidas de seguridad de la información pueden ser gestionadas por un área específica de tecnología sin involucrar necesariamente al resto del personal.
+
+\subtitulo{Diferencias en las estrategias y en las normas}
+Una diferencia importante entre estos conceptos tiene que ver con el tipo de estrategias que emplean. Pirani (2024) explica que la seguridad de la información está relacionada principalmente con medidas preventivas o defensivas, cuyo objetivo es disminuir la probabilidad de que se materialicen las amenazas, mientras que la ciberseguridad no solo plantea estrategias defensivas, sino también prácticas ofensivas orientadas a evitar que los ciberataques lleguen a concretarse. Además, según esta misma fuente, la seguridad de la información involucra a las personas, las normas, las políticas y los procedimientos, mientras que la ciberseguridad se relaciona con las redes, los servidores, la infraestructura crítica, el software y el hardware.
+
+Otro aspecto que ayuda a diferenciar estos conceptos es su relación con las normas y los estándares. La norma ISO/IEC 27001 es el estándar más reconocido a nivel mundial para la gestión de la seguridad de la información y es el que establece los requisitos para implementar un Sistema de Gestión de Seguridad de la Información, además de ser el único de su familia que es certificable (ISO/IEC, 2022). De acuerdo con este estándar, la seguridad no se limita al hardware y al software, sino que abarca también los flujos de trabajo, las políticas, los planes y la cultura de la organización, lo cual refuerza la idea de que la seguridad de la información es un concepto que va más allá de lo puramente tecnológico. Este enfoque integral es el que permite que una organización proteja sus activos de forma coherente en lugar de aplicar medidas aisladas.
+
+\subtitulo{Relaciones}
+La relación entre los tres conceptos se puede entender como una jerarquía de alcances. La seguridad de la información es el nivel más amplio porque protege la información en cualquier forma; dentro de ella se ubica la seguridad informática, que protege los sistemas que contienen esa información; y dentro del ámbito digital se encuentra la ciberseguridad, que se especializa en las amenazas del ciberespacio (Pirani, 2024). De hecho, la ciberseguridad se considera una subrama específica y una parte esencial de la seguridad de la información en la actualidad. Los estándares internacionales reflejan esta convergencia, ya que la versión más reciente de la norma ISO/IEC 27001 aborda de manera conjunta la seguridad de la información, la ciberseguridad y la protección de la privacidad, cubriendo buenas prácticas en protección de datos y ciberresiliencia (ISO/IEC, 2022).
+
+Para ilustrar esta jerarquía con un ejemplo, se puede pensar en el historial médico de un paciente dentro de un hospital. La seguridad de la información se encargaría de proteger ese historial en todas sus formas, tanto el expediente digital como la carpeta física en un archivo e incluso lo que el personal médico conoce sobre el paciente, mediante políticas de confidencialidad y capacitación del personal. La seguridad informática se ocuparía de proteger los servidores, las computadoras y la red del hospital donde se almacena y procesa ese expediente digital. Y la ciberseguridad se especializaría en defender ese sistema frente a un ataque externo, como un ransomware que intente secuestrar los datos de los pacientes a través de internet. Este ejemplo muestra cómo los tres enfoques actúan sobre el mismo activo, pero en niveles y ámbitos distintos.
+
+Comprender estas diferencias tiene implicaciones prácticas para las organizaciones. Cuando una empresa entiende que la seguridad de la información es más amplia que la ciberseguridad, evita el error de creer que basta con instalar herramientas tecnológicas para estar protegida. Una organización puede tener los mejores sistemas de defensa digital y aun así sufrir una fuga de información por un documento físico mal resguardado, por un empleado que comparte una contraseña o por la falta de políticas claras sobre el manejo de los datos. Por esta razón, una estrategia de seguridad efectiva debe combinar los tres enfoques: definir políticas y gestionar el riesgo desde la seguridad de la información, proteger la infraestructura desde la seguridad informática, y defender el entorno digital desde la ciberseguridad. De esta manera, la protección deja de ser un conjunto de acciones aisladas y se convierte en un esfuerzo coordinado que abarca a las personas, los procesos y la tecnología.
+
+Finalmente, es importante destacar que estos tres enfoques no compiten entre sí, sino que se complementan. La seguridad de la información establece el marco general de políticas y de gestión del riesgo, la seguridad informática protege los sistemas donde reside la información, y la ciberseguridad defiende el entorno digital frente a amenazas cada vez más sofisticadas. Comprender esta relación permite que las organizaciones apliquen cada disciplina en su nivel correspondiente y construyan una protección integral de sus activos.
+
+\subtitulo{Observaciones y comentarios}
+Considero que la confusión entre estos términos no es un simple detalle de vocabulario, ya que utilizarlos de forma incorrecta puede llevar a que una organización enfoque mal sus esfuerzos, por ejemplo, invirtiendo únicamente en herramientas digitales y descuidando la protección de la información física o la capacitación del personal. También pude notar que muchas veces se reduce la seguridad al aspecto tecnológico, cuando en realidad las personas y los procesos son igual de importantes para proteger la información.
+
+\subtitulo{Conclusiones}
+\begin{enumerate}[label=\arabic*., left=0pt, itemsep=2pt]
+\item Considero que conocer la diferencia entre estos tres conceptos es más importante de lo que parece, porque usarlos mal puede hacer que una organización enfoque mal sus esfuerzos y su dinero en proteger lo que no debe.
+\item El error más común es creer que la seguridad se resuelve solo con tecnología, cuando pienso que las personas y los procesos son igual o más importantes para proteger la información.
+\item Me parece que la ciberseguridad recibe toda la atención por estar de moda, pero considero que sin una buena gestión de la seguridad de la información detrás, termina siendo una protección incompleta.
+\end{enumerate}
+
+\subtitulo{Referencias}
+
+\hangindent=1cm \noindent ISO/IEC. (2022). \textit{ISO/IEC 27001:2022. Information security, cybersecurity and privacy protection — Information security management systems — Requirements}. International Organization for Standardization. \url{https://www.iso.org/standard/27001}
+
+\vspace{4pt}
+\hangindent=1cm \noindent National Institute of Standards and Technology. (2017). \textit{An introduction to information security (NIST Special Publication 800-12, Rev. 1)}. U.S. Department of Commerce. \url{https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf}
+
+\vspace{4pt}
+\hangindent=1cm \noindent Pirani. (2024). \textit{Diferencias: seguridad de la información y ciberseguridad}. \url{https://www.piranirisk.com/es/blog/diferencias-entre-seguridad-informacion-y-ciberseguridad}
+
+\vspace{4pt}
+\hangindent=1cm \noindent Universidad Francisco de Vitoria. (2026). \textit{¿Qué diferencia hay entre seguridad informática y ciberseguridad?} \url{https://www.ufv.es/que-diferencia-hay-entre-seguridad-informatica-y-ciberseguridad-preguntas-grados/}
+
+\vspace{14pt}
+\noindent\small \textbf{Código fuente:} \url{https://github.com/rramirezg18/foros/tree/main/foro4}
+
+\end{document}
