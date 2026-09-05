@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1788586260.58691 "/home/robertin/Desktop/foros/foro5/foro5.tex" "foro5.pdf" "foro5" 1788586261.0746 0
+["pdflatex"] 1788587457.07992 "/home/robertin/Desktop/foros/foro5/foro5.tex" "foro5.pdf" "foro5" 1788587457.58463 0
   "/etc/texmf/web2c/texmf.cnf" 1776620318.04624 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/robertin/Desktop/foros/foro5/foro5.tex" 1788586260.41024 14384 aed0d8ba0cf8bc06ad56b0dc081ee8c0 ""
+  "/home/robertin/Desktop/foros/foro5/foro5.tex" 1788587456.90141 14436 6d2432151860d1e89b3a0a57fe0251aa ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -85,13 +85,14 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty" 1641763214 4675 e4b8c405820368c2dfb03526e16d725a ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb" 1784775954.43263 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb" 1784775954.43345 167085 68de377d2744a68a88fa40a1f610615a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1784775967.08757 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784775982 8213984 fa093834cfe49691498a51ce60b05037 ""
-  "foro5.aux" 1788586261.01847 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
-  "foro5.out" 1788586260.91987 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "foro5.tex" 1788586260.41024 14384 aed0d8ba0cf8bc06ad56b0dc081ee8c0 ""
+  "foro5.aux" 1788587457.52133 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
+  "foro5.out" 1788587457.42094 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "foro5.tex" 1788587456.90141 14436 6d2432151860d1e89b3a0a57fe0251aa ""
   (generated)
   "foro5.aux"
   "foro5.log"
