@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1792206094.85427 "/home/robertin/Desktop/foros/foro6/foro6.tex" "foro6.pdf" "foro6" 1792206095.35726 0
+["pdflatex"] 1792206514.08533 "/home/robertin/Desktop/foros/foro6/foro6.tex" "foro6.pdf" "foro6" 1792206514.57939 0
   "/etc/texmf/web2c/texmf.cnf" 1776620318.04624 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/robertin/Desktop/foros/foro6/foro6.tex" 1792206094.66812 12700 4733d853e5603da0b75c2cbffdbae78e ""
+  "/home/robertin/Desktop/foros/foro6/foro6.tex" 1792206513.90623 12722 b94df6bd3383457eeda49a940bfb71bc ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -90,9 +90,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1784775967.08757 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784775982 8213984 fa093834cfe49691498a51ce60b05037 ""
-  "foro6.aux" 1792206095.29974 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
-  "foro6.out" 1792206095.19631 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "foro6.tex" 1792206094.66812 12700 4733d853e5603da0b75c2cbffdbae78e ""
+  "foro6.aux" 1792206514.51989 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
+  "foro6.out" 1792206514.42397 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "foro6.tex" 1792206513.90623 12722 b94df6bd3383457eeda49a940bfb71bc ""
   (generated)
   "foro6.aux"
   "foro6.log"
