@@ -1,0 +1,102 @@
+\documentclass[12pt,letterpaper]{article}
+
+% Configuración de página y formato
+\usepackage[left=2.4cm,right=2.4cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{mathptmx} % lo mismo que o mas similar a Times New Roman
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt} % Sin sangría
+\singlespacing % renglon cerrado
+\pagestyle{empty}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=black
+}
+
+% para subtítulos negrita, izquierda
+\newcommand{\subtitulo}[1]{\vspace{12pt}\noindent\textbf{#1}\par\vspace{10pt}}
+
+\begin{document}
+
+\begin{center}
+\textbf{ASEGURANDO LA CALIDAD EN PROYECTOS DE TI}\\[8pt]
+\textit{R. A. Ramírez Gómez}\\
+7690-22-12700 Universidad Mariano Gálvez\\
+Seminario de Tecnologías de Información\\
+\textit{rramirezg18@miumg.edu.gt}
+\end{center}
+
+\vspace{10pt}
+
+\subtitulo{Resumen}
+Este artículo trata sobre cómo garantizar la calidad de un proyecto de tecnologías de información (TI). Se investigó el tema desde dos enfoques que se complementan: la calidad del producto, es decir, qué características debe cumplir el software que se entrega, y la calidad del proceso, es decir, cómo se debe gestionar el proyecto para lograr ese resultado. Para el primer enfoque se utilizó el estándar ISO/IEC 25010, que define las características de calidad de un producto de software, y para el segundo se tomó la guía del PMBOK del Project Management Institute, que organiza la gestión de la calidad en tres procesos: planificarla, gestionarla y controlarla. También se abordó el aseguramiento de la calidad del software (SQA) y la importancia de las pruebas, la verificación y la validación. Se concluye que garantizar la calidad de un proyecto de TI no se logra únicamente al final con las pruebas, sino que es un esfuerzo planificado que debe acompañar todo el desarrollo del proyecto.
+
+\noindent\textbf{Palabras clave:} calidad de software, ISO/IEC 25010, gestión de la calidad, aseguramiento de la calidad, pruebas de software.
+
+\subtitulo{Desarrollo del tema}
+Garantizar la calidad de un proyecto de TI es uno de los mayores retos del desarrollo de software, ya que muchos proyectos fallan por entregar productos con errores, fuera de tiempo o que no cumplen lo que el cliente necesitaba. La calidad no es algo que se revisa solo al final, sino que se debe planificar y cuidar durante todo el proyecto. Para entender cómo lograrla, conviene verla desde dos enfoques que se complementan: la calidad del producto que se entrega y la calidad del proceso con que se construye.
+
+\subtitulo{Calidad del producto: el estándar ISO/IEC 25010}
+Un primer paso para garantizar la calidad es tener claro qué significa que un software sea de calidad. Para evitar que esto dependa de la opinión de cada persona, existen estándares internacionales. El más utilizado es el ISO/IEC 25010, que define un modelo de calidad del producto de software compuesto por un conjunto de características que permiten especificar, medir y evaluar la calidad de un sistema (ISO/IEC, 2023).
+
+Entre las características que define este estándar se encuentran la adecuación funcional, que indica si el software hace lo que debe hacer; la eficiencia de desempeño, que mide si responde de forma rápida y usa bien los recursos; la compatibilidad, la usabilidad, la fiabilidad, la seguridad, la mantenibilidad y la portabilidad (ISO/IEC, 2023). Estas características sirven como una lista de verificación que los equipos de calidad utilizan para asegurarse de que no se les escape ningún aspecto importante al evaluar un producto. De esta manera, el estándar da un lenguaje común para que todos los involucrados en el proyecto entiendan de la misma forma qué se espera del software.
+
+\subtitulo{Calidad del proceso: la gestión de la calidad del proyecto}
+No basta con saber qué características debe tener el producto, también hay que gestionar el proyecto de forma que realmente se alcancen. La guía del PMBOK, publicada por el Project Management Institute, establece que la gestión de la calidad de un proyecto se compone de tres procesos principales (PMI, 2021). El primero es planificar la gestión de la calidad, que consiste en identificar desde el inicio qué normas y requisitos de calidad aplican al proyecto y cómo se van a cumplir. El segundo es gestionar la calidad, también conocido como aseguramiento de la calidad, que consiste en aplicar las actividades planificadas y auditar los procesos para asegurar que se estén usando las normas correctas. El tercero es controlar la calidad, que consiste en revisar y medir los resultados y los entregables para verificar que cumplen con lo esperado.
+
+Una idea importante que plantea esta guía es que conviene invertir en prevenir los errores en lugar de solo corregirlos al final, ya que resulta más económico evitar un defecto que encontrarlo cuando el producto ya llegó al cliente (PMI, 2021). Esto refuerza la idea de que la calidad se construye durante todo el proyecto y no es una revisión de último momento.
+
+Relacionado con lo anterior está el concepto de costo de la calidad, que agrupa los gastos en los que incurre un proyecto para lograr o no la calidad. Según el PMBOK, estos costos se dividen en costos de prevención, que son las inversiones para evitar que se produzcan defectos; costos de evaluación, que son los que se destinan a revisar y medir si el producto cumple; costos por fallos internos, que son los defectos encontrados antes de que el producto llegue al cliente; y costos por fallos externos, que son los defectos detectados cuando el producto ya está en manos del cliente (PMI, 2021). Entender estos costos ayuda a justificar por qué conviene invertir en calidad desde el principio, ya que un fallo externo suele ser mucho más caro y dañino para la reputación que uno detectado a tiempo.
+
+\subtitulo{Aseguramiento de la calidad del software (SQA)}
+Dentro del proceso de construcción del software, el aseguramiento de la calidad del software, conocido como SQA por sus siglas en inglés, es el conjunto de actividades planificadas y sistemáticas que buscan asegurar que tanto los procesos como los productos cumplan con los requisitos y estándares definidos (Nunsys, 2022). El SQA no se limita a probar el software al final, sino que incluye revisar las actividades de desarrollo, auditar los productos y documentar las desviaciones que se encuentren para corregirlas a tiempo.
+
+Una parte esencial del aseguramiento de la calidad son las pruebas, que se entienden como un proceso de verificación y validación. La verificación responde a la pregunta de si el software se está construyendo correctamente según lo definido, mientras que la validación responde a si se está construyendo el software correcto, es decir, el que realmente necesita el cliente (Nunsys, 2022). Entre los tipos de pruebas más comunes se encuentran las pruebas unitarias, que revisan componentes individuales; las de integración, que revisan cómo funcionan juntos; y las de aceptación, que confirman que el producto cumple con lo que el usuario esperaba.
+
+Es importante conocer también los factores que suelen impedir que se logre la calidad en un proyecto de software. La Universidad Autónoma de la Ciudad de México (2015) señala que entre las causas más comunes de una baja calidad están los requerimientos pobres o mal definidos, un calendario poco realista, pruebas inadecuadas y la introducción de cambios después de que el proyecto ya ha iniciado. Por esta razón, uno de los primeros pasos para asegurar la calidad es tener una definición clara de los requerimientos, ya que un error en esta etapa inicial se arrastra y se vuelve más costoso de corregir conforme avanza el proyecto.
+
+\subtitulo{Herramientas para controlar la calidad}
+Para controlar la calidad durante el proyecto existen herramientas que ayudan a identificar y analizar los problemas. El PMBOK menciona algunas de las más utilizadas, como el diagrama de causa y efecto, también llamado de Ishikawa o de espina de pescado, que sirve para encontrar las posibles causas de un problema; el diagrama de Pareto, que ayuda a identificar cuáles son los pocos problemas que generan la mayor cantidad de defectos; y los gráficos de control, que permiten vigilar si un proceso se mantiene dentro de límites aceptables a lo largo del tiempo (PMI, 2021). Estas herramientas convierten el control de calidad en algo basado en datos y no en suposiciones.
+
+Otra práctica común en la gestión de la calidad es el uso del ciclo de mejora continua conocido como PHVA (planificar, hacer, verificar y actuar), que propone repetir de forma constante estos cuatro pasos para ir mejorando los procesos a lo largo de la vida del proyecto (PMI, 2021). Este enfoque ayuda a que la calidad no sea un objetivo que se alcanza una sola vez, sino un proceso que se mejora de manera continua.
+
+\subtitulo{Integración de ambos enfoques}
+En conjunto, el estándar ISO/IEC 25010 define qué características debe cumplir el producto, la gestión de la calidad del PMBOK organiza cómo planificar y controlar la calidad a lo largo del proyecto, y el SQA junto con las pruebas se encargan de comprobar que todo se cumpla durante el desarrollo. De este modo, garantizar la calidad de un proyecto de TI es el resultado de combinar un buen estándar de referencia, una gestión ordenada del proyecto y una comprobación constante del trabajo realizado.
+
+Estos tres elementos se refuerzan entre sí y actúan en distintos momentos del proyecto. El estándar interviene al inicio, cuando se definen los requisitos y las características de calidad que se quieren alcanzar; la gestión de la calidad acompaña todo el ciclo del proyecto, desde la planificación hasta el control de los entregables; y las pruebas y el aseguramiento de la calidad actúan de forma continua durante el desarrollo para detectar y corregir los defectos lo antes posible. Cuando uno de estos elementos falta, la calidad se debilita: sin un estándar no hay una referencia clara de qué medir, sin gestión no hay orden ni prevención, y sin pruebas no hay forma de comprobar que el producto realmente funciona. Por eso, garantizar la calidad no es tarea de una sola herramienta ni de una sola etapa, sino de la combinación coordinada de todas ellas a lo largo del proyecto.
+
+\subtitulo{Observaciones y comentarios}
+Considero que uno de los errores más comunes es pensar que la calidad se resuelve únicamente con probar el software al final, cuando en realidad los problemas más costosos nacen de una mala planificación o de requisitos poco claros desde el inicio. También pude notar que muchas veces se pasa por alto el uso de estándares como ISO/IEC 25010, aunque son de gran ayuda para que todo el equipo entienda de la misma forma qué se espera del producto.
+
+\subtitulo{Conclusiones}
+\begin{enumerate}[label=\arabic*., left=0pt, itemsep=2pt]
+\item Una de las para garantizar la calidad de un proyecto de TI está en planificarla desde el inicio y no dejarla para el final, ya que así se previenen los errores más costosos.
+\item Usar un estándar como ISO/IEC 25010 es muy valioso porque convierte la calidad en algo medible y objetivo, en lugar de depender de la opinión de cada persona.
+\item La calidad depende tanto del producto como del proceso, por lo que pienso que combinar un buen estándar, una gestión ordenada y pruebas constantes es la forma más confiable de lograrla.
+\end{enumerate}
+
+\subtitulo{Referencias}
+
+\hangindent=1cm \noindent ISO/IEC. (2023). \textit{ISO/IEC 25010:2023. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Product quality model}. International Organization for Standardization. \url{https://www.iso.org/standard/78176.html}
+
+\vspace{4pt}
+\hangindent=1cm \noindent Nunsys. (2022). \textit{SQA: aseguramiento de la calidad del software}. \url{https://www.nunsys.com/soluciones/gestion-y-negocio/sqa-calidad-de-software/}
+
+\vspace{4pt}
+\hangindent=1cm \noindent Project Management Institute. (2021). \textit{A guide to the project management body of knowledge (PMBOK guide)} (7.a ed.). PMI.
+
+\vspace{4pt}
+\hangindent=1cm \noindent Universidad Autónoma de la Ciudad de México. (2015). \textit{Aseguramiento de la calidad del software}. UACM. \url{https://www.uacm.edu.mx/Portals/0/OfertaAcademica/CCyT/Programas/CS/Software/6/Aseguramiento_Calidad_Software.pdf}
+
+\vspace{14pt}
+\noindent\small \textbf{Código fuente:} \url{https://github.com/rramirezg18}
+\end{document}
